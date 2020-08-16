@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(background2.jpg);
+    background-size: cover;
+}
+#right{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+header{
+
+    height: 60px;
+}
+h1 a{
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    position: absolute;
+      background: transparent;
+
+}
+input{
+    background-color: transparent;
+    border: transparent;
+    font-style: normal;
+    color: white;
+    border-bottom: 4px solid white;
+  background: transparent;
+}
+button{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    width: 60px;
+      background: transparent;
+}
+button a{
+    color: white;
+    font-style: none;
+    font-size: 14px;
+    text-decoration: none;
+      background: transparent;
+}
+ul li{
+    display: inline;
+      background: transparent;
+}
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    background: transparent;
+}
+content{
+  position: absolute;
+  top: 30%;
+  background: transparent;
+  margin-left: 50px;
+
+}
+p{
+  color: white;
+  background: transparent;
+  text-align: left;
+  font-size: 20px;
+}
+strong{
+  background: transparent;
+}
+h3{
+
+  font-size: 40px;
+background: transparent;
+color: white;
+}
+
+h2{
+  font-size: 35px;
+background: transparent;
+color: white;
+}
+.footer{
+  position: absolute;
+  background: transparent;
+  top: 170%;
+  right: -44%;
+}
+p2{
+  background: transparent;
+  color: white;
+  font-size: 20px;
+}
+.footer ul{
+  background: transparent;
+
+}
+em{
+  background: transparent;
+  color: white;
+}
