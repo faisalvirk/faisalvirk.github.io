@@ -57,7 +57,7 @@ h1{
      font-size: 40px;
  }
  input{
-   float: middle;
+
    color: white;
    display: inline-block;
    background: transparent;
@@ -74,7 +74,8 @@ h1{
  }
  p2 a{
      background: none;
-     button{
+ }     
+     .button{
          background: transparent;
          border: transparent;
           width: 280px;
