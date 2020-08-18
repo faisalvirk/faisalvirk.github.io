@@ -1,17 +1,156 @@
-body{
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Ubuntu",sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar{
+  position: fixed;
+  background-color: transparent;
+  width: 100%;
+  padding: 30px 0;
+  top: 0;
+  z-index: 999;
+  transition: .3s linear;
+}
+
+.inner-width{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.navbar .inner-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo{
+  width: 44px;
+  height: 32px;
+  background-image: url(white-logo.png);
+  background-size: contain;
+}
+
+.menu-toggler{
+  background: none;
+  width: 30px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  z-index: 999;
+  display: none;
+}
+
+.menu-toggler span{
+  display: block;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  position: relative;
+  transition: .3s linear;
+}
+
+.navbar-menu a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+.navbar-menu a:hover{
+  background-color: #fff !important;
+  color: #000;
+}
+
+.sticky{
+  background-color: #fff;
+  padding: 18px 0;
+}
+
+.sticky .logo{
+  background-image: url(black-logo.png);
+}
+
+.sticky .navbar-menu a{
+  color: #111;
+}
+
+.sticky .menu-toggler span{
+  background-color: #111;
+}
+@media screen and (max-width: 980px){
+    .menu-toggler{
+      display: block;
+    }
+  
+    .navbar-menu{
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      background-color: #353b48;
+      top: 0;
+      right: -100%;
+      max-width: 400px;
+      padding: 80px 50px;
+      transition: .3s linear;
+    }
+  
+    .navbar-menu a{
+      display: block;
+      font-size: 30px;
+      margin: 30px 0;
+    }
+  
+    .sticky .navbar-menu{
+      background-color: #f1f1f1;
+    }
+    
+    .navbar-menu.active{
+      right: 0;
+    }
+  
+    .menu-toggler.active span:nth-child(1){
+      transform: rotate(-45deg);
+      top: 4px;
+    }
+  
+    .menu-toggler.active span:nth-child(2){
+      opacity: 0;
+    }
+  
+    .menu-toggler.active span:nth-child(3){
+      transform: rotate(45deg);
+      bottom: 14px;
+    }
+  }
+  #important{
+    font-size: 100px;
+  }
+  a .active-button{
+    background-color: #fff;
+    color: #000;
+  }
+  body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(background2.jpg);
      background-size: cover;
     color: white;
-}
-header{
+  }
+  header{
     margin-left:-20px;
-
+  
     height: 60px;
-}
-h2 a{
+  }
+  h2 a{
     margin-left: 30px;
     word-spacing: 0.3em;
     color: white;
@@ -21,29 +160,25 @@ h2 a{
     position: absolute;
       background: transparent;
       margin-top: -10px;
-
-}
-input{
+  
+  }
+  input{
     background-color: transparent;
     border: transparent;
     font-style: normal;
     color: white;
     border-bottom: 4px solid white;
   background: transparent;
-}
-
-
-h1{
+  }
+  
+  
+  h1{
     margin-top: 50px;
     font-size: 50px;
     text-align: center;
-}
-#main p{
-
-    margin-top: -30px;
-    text-align: center;
-}
-#image {
+  }
+ 
+  #image {
     width: 500%;
     height: auto;
     max-width: 1200px;
@@ -51,7 +186,7 @@ h1{
     margin-right: auto;
     display: block;
     }
-#img-div p{
+  #img-div p{
         text-align: center;
         opacity: 80%;
         margin-top: 1%;
@@ -60,31 +195,138 @@ h1{
         font-size: 20px;
         text-align: center;
     }
-
-    footer p{
+  
+    .footer p{
         text-align: center;
         opacity: 40%;
     }
-ul{
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
-}
-ul li{
-    display: inline-block;
-}
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-}
-ul li a:hover{
-    background-color: #fff;
-    color: #000;
-}
-ul li.active a{
-    background-color: #fff;
-    color: #000;
-}
+    p2{
+        margin-left: 620px;
+        font-size: x-large;
+        margin-bottom: 20px;
+      }
+      
+      h3{
+        margin-left: 40px;
+        font-size: 30px;
+      }
+      h2{
+        margin-left: 40px;
+        font-size: 25px;
+      }
+      p3{
+        margin-top: 100px;
+        margin-left: 40px;
+        font-size: large;
+        align-content: center;
+        margin-right: 40px;
+      
+      }
+      p3 #paragraph{
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      #tribute-info{
+        font-size: large;
+      }
+      h5{
+        text-align: center;
+        font-size: x-large;
+      }
+      ul{
+        float: right;
+        list-style-type: none;
+        margin-right: 20px;
+      }
+      ul li{
+        display: inline-block;
+      }
+      ul li a{
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+      }
+      ul li a:hover{
+        background-color: #fff;
+        color: #000;
+      }  
+      .sm{
+          margin-left: 550px;
+      }
+      .sm a{
+        color: #fff;
+        font-size: 22px;
+        margin: 0 10px;
+
+      }
+      
+      .sm a:hover{
+        color: #48dbfb;
+      }
+      #title{
+          margin-top: 5% ;
+      }
+      #description{
+          margin-top:1%;
+          position: absolute;
+          margin-left: 450px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 6%;
+      }
+      
+      ul{
+          margin-left: 40px;
+      }
+      @media screen and (max-width: 980px){
+      p{
+       font-size: 9px;
+      }
+      ul{
+          font-size: 10px;
+      }
+      h5{
+          font-size: 15px;
+      }
+      h6{
+          font-size: 15px;
+      }
+      p3{
+          font-size: 10px;
+      }
+      h2{
+          font-size: 15px;
+          text-align: center;
+      }
+      h3{
+          font-size: 15px;
+          text-align: center;
+      }
+      #descripition{
+          font-size: 10px;
+          margin-top:2%;
+          text-align: center;
+          color: white;
+      }
+      image {
+        max-width: 100%;
+        height: auto;
+      }
+      #title{
+          margin-top: 17%;
+      }
+      #img-caption{
+          text-align: center;
+      }
+      p2{
+          font-size: 15px ;
+          margin-left: 40%;
+      }
+      .sm{
+          margin-left: 20%;
+      }
+    }

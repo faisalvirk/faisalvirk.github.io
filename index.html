@@ -1,60 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FaisalVirk</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal webiste</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
 </head>
 <body>
-    <header>
-        <h2><a href="index.html">Official Site</a></h2>
-        <ul>           
-            <li class="active"><a  href="index.html">Home</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="aboutus.html">About</a></li>
-            <li><a href="mailto:faisalimranvirk786@gmail.com">Contactus</a></li>
-            <li><a href="signup.html">SwitchUser</a></li>
-
-
-        </ul>
-    </header>
-    <content div id="main">
-        <h1 id="title">Faisal Ali</h1>
-        <p>The youngest Web Developer to have ever walked on earth</p>
-        <div id="img-div" >
-        <img id="image" src="my.jpg" alt="Faisal Ali's Pic">
-        <p id="img-caption">Attempting his first web page ever as web developer</p>
-        </div>
-        
-        <h6>Heres A Time Line Of Faisal's Life</h6>
-        <div id="tribute-info">
-        <ul>
-            <li><strong>2004-</strong>in Sheikhupura, Pakistan</li><br>
-            <li><strong>2008-</strong>Mother left him with his Grandmother and Father</li><br>
-            <li><strong>2009-</strong>Dad left him in search of work in Abu dhabi</li><br>
-            <li><strong>2010-</strong>Moved to Sheikhupura from his village(farooqabad) in search of better study opertunity</li><br>
-            <li><strong>2014-</strong>Mother comes back in his life for an year</li><br>
-            <li><strong>2015-</strong>leaves him again!</li><br>
-            <li><strong>2018-</strong>Comes back in his life. (He thought his life is going to be perfect but little does he know his lifes problems are only beginning</li><br>
-            <li><strong>2020-</strong>He gets bad grades due to corona virus and Dad comes back to stay. He finds out life is meaningless for others and no one cares about him instead of his dad and tries to better his life by starting to code 14 hours a day for 3 months straight and becomes a pro in Web Development</li>
-                        and beyond-Learns Python and Javascript and goes to college for ICS</li>
-
-        </ul>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="inner-width">
+      <a href="/" class="logo"></a>
+      <button class="menu-toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="navbar-menu">
+        <a href="index.html">Home</a>
+        <a class="active-button" href="portfolio.html">Portfolio</a>
+        <a href="aboutus.html">About</a>
+        <a href="signup.html">SwitchUser</a>
+      </div>
     </div>
+  </nav>
+  <content div id="main">
+    <h1 id="title">Faisal Ali</h1>
+    <p id="description">The youngest Web Developer to have ever walked on earth</p>
+    <div id="img-div" >
+    <img id="image" src="my.jpg" alt="Faisal Ali's Pic">
+    <p id="img-caption">Attempting his first web page ever as web developer</p>
+    </div>
+    <h3> Hi! My name is Faisal</h3><br>
+    <h2 >And i am A Front-end Developer!</h2>
+    <p3 id="paragraph"> I live in a small town of <strong>Pakistan</strong> named <em>Sheikhupura</em>. I was Born on 25 November 2004. 
+      at the age of <strong>16</strong> I learned Web Development and since <strong>2020</strong> have been developing some of the most iconic websites of 21st Century. and have ranked in one of the youngest Web Devolpers of all time. My lifes motive is to create a name in the history
+      for being one of the most genious people of all time and make my country proud.</p3>
+
     
-    </content>
-    <footer>
-        <p> His Sayings: "You should love those who love you and dont waste time loving who doesn't even care about you"<br>
-            "Money can't buy happiness but what it can do is help you travel away from your problems"<br>
-            "You can't change anyones else mind but what you can do is change your path"<br>
-            "some people are good in school and some are good in life"<br>
-            "Some people hate studing but love learning"<br>
-            
+    <h6>Heres A Time Line Of Faisal's Life</h6>
+    <div id="tribute-info">
+    <ul>
+        <li><strong>2004-</strong>in Sheikhupura, Pakistan</li><br>
+        <li><strong>2008-</strong>Mother left him with his Grandmother and Father</li><br>
+        <li><strong>2009-</strong>Dad left him in search of work in Abu dhabi</li><br>
+        <li><strong>2010-</strong>Moved to Sheikhupura from his village(farooqabad) in search of better study opertunity</li><br>
+        <li><strong>2014-</strong>Mother comes back in his life for an year</li><br>
+        <li><strong>2015-</strong>leaves him again!</li><br>
+        <li><strong>2018-</strong>Comes back in his life. (He thought his life is going to be perfect but little does he know his lifes problems are only beginning</li><br>
+        <li><strong>2020-</strong>He gets bad grades due to corona virus and Dad comes back to stay. He finds out life is meaningless for others and no one cares about him instead of his dad and tries to better his life by starting to code 14 hours a day for 3 months straight and becomes a pro in Web Development
+                    and starts to learn Python and Javascript and goes to college for ICS</li>
 
-        </p>
-        <p>for more info<a id="tribute-link" target="_blank" href="https://github.com/">Click Here</a>and for Survey<a href="survey.html">Click Here</a></p>
+    </ul>
+</div>
 
-    </footer>
+</content>
+<footer>
+    
+</footer>
+
+    <content>
+
+</content>
+<div class="footer">
+<h5>His lifes Lessons</h5>
+<p> "You should love those who love you and dont waste time loving who doesn't even care about you"<br>
+"Money can't buy happiness but what it can do is help you travel away from your problems"<br>
+"You can't change anyones else mind but what you can do is change your path"<br>
+"some people are good in school and some are good in life"<br>
+"Some people hate studing but love learning"<br>
+
+
+</p>
+<p>for more info<a id="tribute-link" target="_blank" href="https://github.com/">Click Here</a>and for Survey<a href="survey.html">Click Here</a></p>
+<p2> My links</p2><br><br>
+<div class="sm">
+    <a href="https://www.facebook.com/profile.php?id=100007124052107" class="fab fa-facebook-f"></a>
+    <a href="https://twitter.com/FaisalA10867122s" class="fab fa-twitter"></a>
+    <a href="https://www.instagram.com/faisalvirkoffical/" class="fab fa-instagram"></a>
+    <a href="#" class="fab fa-linkedin-in"></a>
+    <a href="https://www.youtube.com/channel/UCFzGU_Ep-QRqd41dZtN3imw?view_as=subscriber" class="fab fa-youtube"></a>
+  </div>
+
 </body>
 </html>
