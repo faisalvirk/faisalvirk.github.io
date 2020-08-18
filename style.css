@@ -312,7 +312,7 @@
           text-align: center;
           color: white;
       }
-      image {
+      #image {
         max-width: 100%;
         height: auto;
       }
@@ -328,5 +328,8 @@
       }
       .sm{
           margin-left: 20%;
+      }
+      #description{
+          margin-left: 98px;
       }
     }
