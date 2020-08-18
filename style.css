@@ -254,11 +254,13 @@
       }  
       .sm{
           margin-left: 550px;
+          margin-bottom: 20px;
       }
       .sm a{
         color: #fff;
         font-size: 22px;
         margin: 0 10px;
+        margin-bottom: 20px;
 
       }
       
@@ -284,30 +286,30 @@
       }
       @media screen and (max-width: 980px){
       p{
-       font-size: 9px;
+       font-size: 12px;
       }
       ul{
-          font-size: 10px;
+          font-size: 15px;
       }
       h5{
-          font-size: 15px;
+          font-size: 20px;
       }
       h6{
-          font-size: 15px;
+          font-size: 20px;
       }
       p3{
-          font-size: 10px;
+          font-size: 15px;
       }
       h2{
-          font-size: 15px;
+          font-size: 20x;
           text-align: center;
       }
       h3{
-          font-size: 15px;
+          font-size: 20px;
           text-align: center;
       }
       #descripition{
-          font-size: 10px;
+          font-size: 15px;
           margin-top:2%;
           text-align: center;
           color: white;
@@ -323,13 +325,13 @@
           text-align: center;
       }
       p2{
-          font-size: 15px ;
+          font-size: 20px ;
           margin-left: 40%;
       }
       .sm{
           margin-left: 20%;
       }
       #description{
-          margin-left: 98px;
+          margin-left: 55px;
       }
     }
